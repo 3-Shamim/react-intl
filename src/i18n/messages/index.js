@@ -1,9 +1,11 @@
-import en from './es-US';
-import de from './de-DE';
-import fr from './fr-CA';
+import en_US from "./en-US";
+import de_DE from "./de-DE";
+import fr_CA from "./fr-CA";
 
-export default {
-    ...en,
-    ...de,
-    ...fr,
+const index = {
+    ...en_US,
+    ...de_DE,
+    ...fr_CA,
 }
+
+export default index;
